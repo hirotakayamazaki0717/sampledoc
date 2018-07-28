@@ -1,0 +1,7 @@
+version: '3'
+services:
+  review:
+    volumes:
+      - .:/techbook5
+    build: .
+    working_dir: /techbook5
